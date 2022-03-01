@@ -25,8 +25,12 @@ function positiveSum(arr) {
 
 ## Function 2
 
-```js
+<!-- *Googled square operators , we also reviewed a version during the first week of class -->
 
+```js
+function square(num) {
+  return num ** 2
+}
 ```
 
 ## Sum Arrays
