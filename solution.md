@@ -35,12 +35,26 @@ function square(num) {
 
 ## Sum Arrays
 
-```js
+<!-- Needed to google what use strict means :  -->
 
+```js
+function sum(numbers) {
+  'use strict'
+  let sumNum = 0
+  for (let i = 0; i < numbers.length; i++) sumNum += numbers[i]
+  return sumNum
+}
 ```
 
 ## Reversed Strings
 
 ```js
-
+// <!-- I tried this:
+// //   for (let i = str.length - 1; i >= 0; i--)
+// //     return(reverseStr += str[i]) -->
+//  <!-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse -->
+// <!-- BUT THERE IS A REVERSE OPERATOR! -->
+function solution(str) {
+  return str.split('').reverse().join('')
+}
 ```
