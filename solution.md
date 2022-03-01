@@ -55,6 +55,6 @@ function sum(numbers) {
 //  <!-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse -->
 // <!-- BUT THERE IS A REVERSE OPERATOR! -->
 function solution(str) {
-  return str.split('').reverse().join('')
+  return str.split('').reverse('').join('')
 }
 ```
