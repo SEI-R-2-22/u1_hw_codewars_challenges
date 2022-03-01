@@ -69,3 +69,11 @@ function solution(str) {
 solution('dlrow')
 
 // (Source: programiz)
+
+// CodeWars Solution:
+
+function solution(str) {
+  return str.split('').reverse().join('')
+}
+
+// Reminder: You can attach 1+ method to a parameter/argument!
