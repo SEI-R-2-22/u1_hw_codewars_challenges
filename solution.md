@@ -2,7 +2,6 @@
 
 ```js
 function makeNegative(num) {
-  // Code?
   if(num > 0){
       num *= -1
       return num
@@ -38,7 +37,6 @@ function square(num) {
 
 ```js
 function sum (numbers) {
-    "use strict";
     let current = 0
     for(let i = 0; i < numbers.length; i++){
         current += numbers[i]
