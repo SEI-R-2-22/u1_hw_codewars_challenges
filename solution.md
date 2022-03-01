@@ -1,29 +1,45 @@
 ## Return Negative
+function makeNegative(num) {
+  // Code?
+  if (num <= 0) {
+    return num;
+  } else {
+    return num * -1;
+  }
 
-```js
-
-```
 
 ## Sum of Positive
+function positiveSum(arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 0) {
+      sum += arr[i];
+      }
+  }
+  return sum;
+}
 
-```js
-
-```
 
 ## Function 2
 
-```js
+function square(num) {
+  return num**2;
+}
 
-```
 
 ## Sum Arrays
 
-```js
-
-```
+function sum (numbers) {
+    "use strict";
+    let sumNum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sumNum += numbers[i];
+  }
+    return sumNum;
+};
 
 ## Reversed Strings
 
-```js
-
-```
+function solution(str){
+  return str.split("").reverse().join("");
+}
