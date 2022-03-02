@@ -16,7 +16,10 @@ console.log(15)
 ## Function 2
 
 ```js
-
+function square(num) {
+  return num * num;
+}
+console.log(square(8));
 ```
 
 ## Sum Arrays
