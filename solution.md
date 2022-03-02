@@ -31,11 +31,23 @@ function square(num) {
 ## Sum Arrays
 
 ```js
-
+function sum (numbers) {
+    let total = 0
+     if (numbers[0] === undefined) {
+       return 0
+      } else {
+        for (let i = 0; i < numbers.length; i++) {
+        total += numbers[i]
+           return total
+       }   
+      } 
+    }
 ```
 
 ## Reversed Strings
 
 ```js
-
+function solution(str){
+   return str.split('').reverse().join('');
+}
 ```
