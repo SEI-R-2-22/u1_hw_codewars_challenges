@@ -26,18 +26,30 @@ function positiveSum(arr) {
 ## Function 2
 
 ```js
-let square = num => num ** 2
+
 const result = Math.sqrt(number);
 ```
 
 ## Sum Arrays
 
 ```js
-
+function sum (numbers) {
+    "use strict";
+    let sum = 0
+    for (let i = 0; i < numbers.length; i++) {
+      sum += numbers[i]
+    }
+    return sum 
+};
 ```
 
 ## Reversed Strings
 
-```js
+```js 
+//credits :https://www.freecodecamp.org/news/how-to-reverse-a-string-in-javascript-in-3-different-ways-75e4763c68cb/
+
+  function solution(str){
+    return str.split("").reverse().join("");
+}
 
 ```
