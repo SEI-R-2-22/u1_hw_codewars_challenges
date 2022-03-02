@@ -26,7 +26,7 @@ function positiveSum(arr) {
 ```
 
 ## Function 2
-nction square(x) {
+function square(x) {
   
   return x * x;
 }
