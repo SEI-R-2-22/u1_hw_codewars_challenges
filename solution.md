@@ -93,25 +93,35 @@ const totSum = (exArr) => {
     
     
     let result = 0;
-
+    let testArr = exArr[0];
     
-    if (exArr.length <= 0){
+    
+    if ( testArr === undefined){
+
+        return result;
+
+       
+
+        
+    }else {
 
         for (i=0; i<exArr.length; i++) {
         
-        
+            
             result += exArr[i];
     
             
     
         }
+
+
     }
     return result;
 
     }
 
 
-console.log(totSum([]));
+console.log(totSum([1, -1, 2]));
 
 
 ## Reversed Strings
