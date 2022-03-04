@@ -85,10 +85,12 @@
 
 
 // program to reverse a string
-const strToReverse = "JavaScript could be even harder, if we only had to read it in reverse"
 
-let reversed = '';
-for (let i = strToReverse.length - 1; i >= 0; i--){
-    reversed += strToReverse[i];
-}
-console.log(reversed)
+function solution(str){
+    let reversed = '';
+    for (let i = str.length - 1; i >= 0; i--){
+        reversed += str[i];
+    }
+    return reversed
+    }
+    
