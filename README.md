@@ -15,22 +15,56 @@ Codewars is an interactive platform used to practice coding challenges that you 
 ## Problem 1
 
 [Return Negative](https://www.codewars.com/kata/55685cd7ad70877c23000102)
+function makeNegative(num) {
+  // Code?
+  // want to return a negative number
+  //if our number is 0 or already negative we want to just return that number
+if (num <= 0) {
+  return num
+  } else {
+    return num * -1
+  }
+}
 
 ## Problem 2
 
 [Sum of Positive](https://www.codewars.com/kata/5715eaedb436cf5606000381)
+function positiveSum(arr) {
+    let sum = 0;
+    for(let i = 0; i < arr.length; i++) {
+        if(arr[i] > 0) sum += arr[i]
+    }
+    return sum
+}
 
 ## Problem 3
 
 [Function 2](https://www.codewars.com/kata/523b623152af8a30c6000027)
+function squareSum(numbers) {
+    let sum = 0
+    for( let i = 0; i < numbers.length; i++) {
+        sum += numbers[i] **2
+    }
+    return sum
+}
 
 ## Problem 4
 
 [Sum Arrays](https://www.codewars.com/kata/53dc54212259ed3d4f00071c)
+sum = function (numbers) {
+  "use strict";
+  return numbers.reduce(function(t, n){
+    return t + n;
+  }, 0);
+};
 
 ## Problem 5
 
 [Reversed String](https://www.codewars.com/kata/5168bb5dfe9a00b126000018)
+function solution(str){
+  const reverseStr = str.split('').reverse('').join('');
+  return reverseStr;
+}
 
 ## Submission
 
